@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: continue; 2 3 4 6
+- text: 'continue; 2 3 4 '
+- text: break; 2 3
+- text: continue; 2 3 4 6 7
+- text: break; 3 4
+- text: continue; 4 3 2
+- text: break; 2 3 4
+- text: continue; 3 4 6 7
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9376#comment
+status: Solved
+record: -1
+local_check: false
